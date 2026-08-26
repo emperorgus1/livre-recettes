@@ -42,6 +42,10 @@ Astuce : réutilise exactement les mêmes noms de catégorie (et sous-catégorie
 
 Comme `recettes.js` est chargé par le navigateur, tu peux ouvrir `index.html` directement en double-cliquant dessus (pas besoin de serveur).
 
+## Importer plusieurs recettes d'un coup
+
+Si tu as beaucoup de recettes déjà organisées sur Drive, `import-drive.gs` est un script à usage ponctuel (Google Apps Script) qui génère automatiquement le contenu de `recettes.js` à partir de ton dossier Drive — voir les instructions en commentaire au début du fichier.
+
 ## Déploiement (Netlify ou GitHub Pages)
 
 Le site est composé uniquement de fichiers statiques (`index.html`, `style.css`, `script.js`, `recettes.js`) : il suffit de déposer le dossier tel quel sur Netlify (glisser-déposer) ou de le pousser sur un dépôt GitHub avec Pages activé. Aucune configuration de build n'est nécessaire.
