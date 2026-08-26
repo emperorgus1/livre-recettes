@@ -28,52 +28,52 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1MhXbtZUdT8d-1Mz7hcrs8Q8IodY-1xye/view?usp=drivesdk"
   },
   {
-    titre: "carpaccio chou rave",
+    titre: "Carpaccio chou rave - parmesan+moutarde",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/1fyCG3m2780C_Pl9-dOq1HS9epn8ckduY/view?usp=drivesdk"
   },
   {
-    titre: "patates jaunes au miel ric",
+    titre: "patates jaunes au miel",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/1r7F_dk7kU5Cko2AHK8DvicDFY1BMFVdo/view?usp=drivesdk"
   },
   {
-    titre: "Frites maison chaudron",
+    titre: "Frites maison au chaudron",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/1v2K-Fy7xCLAolcSXdgDFARvoLonZnbab/view?usp=drivesdk"
   },
   {
-    titre: "Chips de kale   Josée di Stasio",
+    titre: "Chips de kale - Di Stasio",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/1JR48_W-r3yFiVYvC4vPp_-N5abeKzYVn/view?usp=drivesdk"
   },
   {
-    titre: "sauté de pois mange tout aux graines de sésame",
+    titre: "Sauté de pois mange tout aux graines de sésame",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/1dJLOCoPOBN3iz_lp4hVdtwSVwtgN6eEp/view?usp=drivesdk"
   },
   {
-    titre: "Dips de légumes (topinambour et betterave rouge) | BelOrta",
+    titre: "Dips de légumes (topinambour et betterave rouge)",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/1svDN8yl7DM17yiK7Sa9-O86QxHW5Z3wu/view?usp=drivesdk"
   },
   {
-    titre: "vinaigrette asiatique",
+    titre: "Vinaigrette asiatique",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/1AegI96HduMFf4Q0Y1Jffj0DaaZVP-SF2/view?usp=drivesdk"
   },
   {
-    titre: "legumes racines marinés érable ail romarin",
+    titre: "Legumes racines marinés érable ail romarin",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/12lh91iCjewIkJFTefzzIULyJnsOYUbm6/view?usp=drivesdk"
   },
   {
-    titre: "purée haricots",
+    titre: "Purée haricots",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/1YbHo6Hca5mVxS2MSpO-cm3LXwoh_2slP/view?usp=drivesdk"
   },
   {
-    titre: "radis marinés DiStasio",
+    titre: "Radis marinés DiStasio",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/1rEhAy9naNo5dXoso8hYc0h76adMkcZTM/view?usp=drivesdk"
   },
@@ -93,7 +93,7 @@ const recettes = [
     lien: "https://drive.google.com/file/d/17WZdp8MyWE9v3tKa0kducRSbTIa7uV42/view?usp=drivesdk"
   },
   {
-    titre: "brie chaud raisins porto",
+    titre: "Brie chaud raisins porto",
     categorie: "3. Entrées, salades, encas, accompagnements",
     lien: "https://drive.google.com/file/d/1OORhyD-C-ib_OdKr9plk-PAI1G2GG3rY/view?usp=drivesdk"
   },
@@ -118,13 +118,13 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1z__ke0sTGEgWRP2-X0E99EmzT1y_DKhM/view?usp=drivesdk"
   },
   {
-    titre: "Recette de salade de poulet à l'estragon dans un bol   Zeste",
+    titre: "Recette de salade de poulet à l'estragon dans un bol",
     categorie: "3. Entrées, salades, encas, accompagnements",
     sousCategorie: "salades",
     lien: "https://drive.google.com/file/d/1xKslFOmx9QvM_Q39DqBF6rrILmdFCEL5/view?usp=drivesdk"
   },
   {
-    titre: "Salade de chou Di Stasio",
+    titre: "Salade de chou - Di Stasio",
     categorie: "3. Entrées, salades, encas, accompagnements",
     sousCategorie: "salades",
     lien: "https://drive.google.com/file/d/1-HyzdDyFcugrFUH0Jf-fwaqTfu7oFBXP/view?usp=drivesdk"
@@ -154,7 +154,7 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1uPuZNUG6UmGrn0gul_k9Rr6F_FCG4RgZ/view?usp=drivesdk"
   },
   {
-    titre: "Galettes pattes d ours",
+    titre: "Galettes pattes d'ours",
     categorie: "8. Desserts",
     lien: "https://drive.google.com/file/d/11Fbk1QFrAp0L_JqUBrFZ-JTV4kWsg110/view?usp=drivesdk"
   },
@@ -164,17 +164,17 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1F3imcnfwThc2ZeLOgS2yUBOVLWjRgpRv/view?usp=drivesdk"
   },
   {
-    titre: "No Bake Nutella S'mores Granola Bars   Inside BruCrew Life",
+    titre: "No Bake Nutella S'mores Granola Bars",
     categorie: "8. Desserts",
     lien: "https://drive.google.com/file/d/1hmhpNHjFmS3ZZVAu4JISMEkJ-4CUjGEz/view?usp=drivesdk"
   },
   {
-    titre: "caramel salé",
+    titre: "Caramel salé",
     categorie: "8. Desserts",
     lien: "https://drive.google.com/file/d/1Bsepq5C_TLMThPbyl7HIC4ePMRjN15Nv/view?usp=drivesdk"
   },
   {
-    titre: "Pâte à pizza   Josée di Stasio",
+    titre: "Pâte à pizza - Di Stasio",
     categorie: "7. Pizza et tartes salées",
     lien: "https://drive.google.com/file/d/1T3tyg9YliYIjFSSIirgBFKGpdXWHxBRC/view?usp=drivesdk"
   },
@@ -184,22 +184,22 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1YTENotVW2rRxxYCgLT_Lt2oKXsF2j4Wc/view?usp=drivesdk"
   },
   {
-    titre: "Special Scalloped Corn Recipe   Taste of Home",
+    titre: "Casserole de maïs gratinée",
     categorie: "7. Pizza et tartes salées",
     lien: "https://drive.google.com/file/d/1-qU7coevrzXnYfFehqL8Le7IkTpMXcK2/view?usp=drivesdk"
   },
   {
-    titre: "muffin simple",
+    titre: "Muffins simples",
     categorie: "1. Déjeuners et collations",
     lien: "https://drive.google.com/file/d/1xCaRgtozYKjmUZf6igf2BTCxavtPF8nM/view?usp=drivesdk"
   },
   {
-    titre: "pain courgette+dattes+noix",
+    titre: "Pain aux courgette+dattes+noix",
     categorie: "1. Déjeuners et collations",
     lien: "https://drive.google.com/file/d/145Jw5CoSz7ieb_BIwIN3LfqvSV9nQahH/view?usp=drivesdk"
   },
   {
-    titre: "pain bleuets cannelle sur le feu",
+    titre: "Pain bleuets et cannelle sur le feu",
     categorie: "1. Déjeuners et collations",
     lien: "https://drive.google.com/file/d/1iE_4vn1Sb_4rIINIyjFGAQLCXZZ3QYT1/view?usp=drivesdk"
   },
@@ -224,12 +224,12 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1jd85mODr5S5xQ4K7S3YYQp1uQUhhtqtT/view?usp=drivesdk"
   },
   {
-    titre: "Morning Glory Muffins   Sally s Baking Addiction",
+    titre: "Morning Glory Muffins",
     categorie: "1. Déjeuners et collations",
     lien: "https://drive.google.com/file/d/1lm3jKpn5FCHwwN5K3h5J4Js_dfqlyMAD/view?usp=drivesdk"
   },
   {
-    titre: "Zucchini Muffins with Chocolate Chips   Once Upon a Chef",
+    titre: "Zucchini Muffins with Chocolate Chips",
     categorie: "1. Déjeuners et collations",
     lien: "https://drive.google.com/file/d/1yKT6w4U2ZqwRqC2yQc5nxSs6jXd3cKtz/view?usp=drivesdk"
   },
@@ -246,13 +246,13 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1RUW_Mzb-Pd4pB5kYRQqBoBUYg3gy37pn/view?usp=drivesdk"
   },
   {
-    titre: "Steak Diane   intérieur de ronde simple",
+    titre: "Steak Diane simple",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Boeuf",
     lien: "https://drive.google.com/file/d/1SF9bwKlAUHymHNakVJyCGQvnD5OPfpnB/view?usp=drivesdk"
   },
   {
-    titre: "Recette   Pilons de poulet aux épices et frites au four   Josée di Stasio",
+    titre: "Pilons de poulet aux épices et frites au four - Di Stasio",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Poulet",
     lien: "https://drive.google.com/file/d/1YyggZWzvF1LWaJ-v3fQMdCTvodUQQ-hN/view?usp=drivesdk"
@@ -276,31 +276,31 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1A0kmcbvDQdEqsYR_Z8JKmVRBebfjMint/view?usp=drivesdk"
   },
   {
-    titre: "Cari de poulet   Recettes simple",
+    titre: "Cari de poulet",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Poulet",
     lien: "https://drive.google.com/file/d/1Xqb6-s93NyVE5UxnTwWdBwHO2DTuu-M-/view?usp=drivesdk"
   },
   {
-    titre: "Poulet au beurre (le meilleur)   RICARDO",
+    titre: "Poulet au beurre (le meilleur)",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Poulet",
     lien: "https://drive.google.com/file/d/1Y2yf4QbpTbA7_gP64WlGY9xFRTdn8E0L/view?usp=drivesdk"
   },
   {
-    titre: "Poulet grillé à la portugaise (le meilleur)   RICARDO",
+    titre: "Poulet grillé à la portugaise (le meilleur)",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Poulet",
     lien: "https://drive.google.com/file/d/1gxy8xtowvdyrws8MqhgXT9ypkO1KTzfC/view?usp=drivesdk"
   },
   {
-    titre: "tacos al pastor steven raichland 2",
+    titre: "Tacos al pastor steven raichland 2",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Mexicain_oriental",
     lien: "https://drive.google.com/file/d/1-x_ayzBByq9egepd8ICz2UPi9yV3SZG2/view?usp=drivesdk"
   },
   {
-    titre: "tacos al pastor 1ere 2",
+    titre: "Tacos al pastor 1ere",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Mexicain_oriental",
     lien: "https://drive.google.com/file/d/1zlLTdPaT-EfAg2QBQZESi8ram4a1KQJI/view?usp=drivesdk"
@@ -312,7 +312,7 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1skPMLSQdvZ5AIp3ygSMT1rroqsjOHjsT/view?usp=drivesdk"
   },
   {
-    titre: "Mexican Barbacoa Beef   Mijoteuse",
+    titre: "Mexican Barbacoa Beef à la Mijoteuse",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Mexicain_oriental",
     lien: "https://drive.google.com/file/d/105jAqVQ92Eq_IMhBVVFbg07ZKrUZneLu/view?usp=drivesdk"
@@ -323,14 +323,8 @@ const recettes = [
     sousCategorie: "Mexicain_oriental",
     lien: "https://drive.google.com/file/d/1Dh2tVl2_TgmMyuJIteHZ_KWV1Gor89WF/view?usp=drivesdk"
   },
-  {
-    titre: "Tacos de carnitas à la mijoteuse   PLANbouffe",
-    categorie: "4. Plats principaux – Viandes et poissons",
-    sousCategorie: "Mexicain_oriental",
-    lien: "https://drive.google.com/file/d/1cKoEC5_XEGZDNBIuNsGVvM8VVSZ_cNoX/view?usp=drivesdk"
-  },
-  {
-    titre: "Carnitas (Mexican Slow Cooker Pulled Pork)   RecipeTin Eats",
+   {
+    titre: "Carnitas (Mexican Slow Cooker Pulled Pork)",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Mexicain_oriental",
     lien: "https://drive.google.com/file/d/1iVOPYQLaR-gZAtFmSbEioBvKAT-PA9Ys/view?usp=drivesdk"
@@ -342,13 +336,13 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1l5kcLlL3WDa3lV_NIYdmkrgpF2RzlrIz/view?usp=drivesdk"
   },
   {
-    titre: "Plaque de crevettes, de bacon & de maïs épicé   Trois fois par jour",
+    titre: "Plaque de crevettes, de bacon & de maïs épicé",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Poissons_fruits-mer",
     lien: "https://drive.google.com/file/d/1-_WAPvs9KbYjUcgJvfQVahkrZbPFEVZ5/view?usp=drivesdk"
   },
   {
-    titre: "saumon en croute d epices",
+    titre: "Saumon en croute d epices",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Poissons_fruits-mer",
     lien: "https://drive.google.com/file/d/1Pm1TuoY4MhEDXyi4ZuUXxTdMIKWi1gU3/view?usp=drivesdk"
@@ -360,13 +354,13 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1KKDdhqpSBfmxaGLXtUMP2KXGHJNvCS98/view?usp=drivesdk"
   },
   {
-    titre: "épaule picnic mijoteuse au whisky",
+    titre: "Épaule picnic mijoteuse au whisky",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Porc",
     lien: "https://drive.google.com/file/d/1SvbfJs2Gzeq0hK83yI3i-x2xkK0pJpJR/view?usp=drivesdk"
   },
   {
-    titre: "Longe de porc à l'érable et au romarin | Érable du Québec",
+    titre: "Longe de porc à l'érable et au romarin",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Porc",
     lien: "https://drive.google.com/file/d/1x_NLXsbZlMh6NgpNK7aMz7Hdm9mFwy1-/view?usp=drivesdk"
@@ -376,12 +370,6 @@ const recettes = [
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Porc",
     lien: "https://drive.google.com/file/d/1pulT9bRn8i0_L8jdhOVixq8SnEKSYTKC/view?usp=drivesdk"
-  },
-  {
-    titre: "Longe de porc à l'érable et au romarin",
-    categorie: "4. Plats principaux – Viandes et poissons",
-    sousCategorie: "Porc",
-    lien: "https://drive.google.com/file/d/1U2gxaTUIT6QV2vvu4mV_uDd1ZUUFGKSV/view?usp=drivesdk"
   },
   {
     titre: "Burgers de porc côtes levées",
@@ -402,13 +390,13 @@ const recettes = [
     lien: "https://drive.google.com/file/d/14DWyE7O__Tsngqisz1GUJYa8iNJdexJ3/view?usp=drivesdk"
   },
   {
-    titre: "Pork Schnitzel Recipe   NatashasKitchen.com",
+    titre: "Pork Schnitzel",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Porc",
     lien: "https://drive.google.com/file/d/166sH7cEtg7yvwp4mpq5BDnV3xsdyoBCz/view?usp=drivesdk"
   },
   {
-    titre: "Porc effiloché mexicain Mijouteuse",
+    titre: "Porc effiloché mexicain Mijoteuse",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Porc",
     lien: "https://drive.google.com/file/d/1DOsYEWW1AEyCqiCj9tDVEdDrGy1imEsm/view?usp=drivesdk"
@@ -426,13 +414,13 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1qWy92S-NLRJYGuJ0F3ClqzEU4snn8Kcv/view?usp=drivesdk"
   },
   {
-    titre: "Hot dogs laqués à l asiatique",
+    titre: "Hot dogs laqués à l'asiatique",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Porc",
     lien: "https://drive.google.com/file/d/1szY8lwuZ0yUCjCq28_8Zw-7EQpeFC6fc/view?usp=drivesdk"
   },
   {
-    titre: "riz frit vide frigo",
+    titre: "Riz frit vide frigo",
     categorie: "6. Pâtes, riz, risottos et plats d'inspiration italienne",
     lien: "https://drive.google.com/file/d/1BnaZJhfMZ5y-4m6BY8iNjZJJdbRwRItp/view?usp=drivesdk"
   },
@@ -462,7 +450,7 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1OhmDYbgn-jHSq6jPEnZDaLcscnZ7FoQp/view?usp=drivesdk"
   },
   {
-    titre: "Sauce à spaghetti express de Marilou   Trois fois par jour",
+    titre: "Sauce à spaghetti express de Marilou",
     categorie: "6. Pâtes, riz, risottos et plats d'inspiration italienne",
     lien: "https://drive.google.com/file/d/1rYagBMjjzTuuf0sZonmN4G7nEHZw48-0/view?usp=drivesdk"
   },
@@ -477,17 +465,17 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1_AZfCeyESMjNMzCFO7dpqR5NX8SU_boT/view?usp=drivesdk"
   },
   {
-    titre: "Poutine à la plaque   Savourer x Mordu",
+    titre: "Poutine à la plaque - Mordu",
     categorie: "5. Plats principaux – Végétariens",
     lien: "https://drive.google.com/file/d/1AXbIx5Qfg3AjYj4Ys1ebCbWn697kDlpL/view?usp=drivesdk"
   },
   {
-    titre: "bol egg roll tempeh",
+    titre: "Bol egg roll tempeh",
     categorie: "5. Plats principaux – Végétariens",
     lien: "https://drive.google.com/file/d/186Ct8548epL5uuODxy4O5xCMi8Mn28rk/view?usp=drivesdk"
   },
   {
-    titre: "rouleaux de printemps",
+    titre: "Rouleaux de printemps",
     categorie: "5. Plats principaux – Végétariens",
     sousCategorie: "Mexicaine_asiatique",
     lien: "https://drive.google.com/file/d/11xhzh2igWNg-zpovgmtBj5JxZsZPZpOb/view?usp=drivesdk"
@@ -529,19 +517,19 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1dtKREInzBkZTBXz7_ll0K1QWb_FKx-nm/view?usp=drivesdk"
   },
   {
-    titre: "Brochettes de tofu à la coréenne   Mordu",
+    titre: "Brochettes de tofu à la coréenne - Mordu",
     categorie: "5. Plats principaux – Végétariens",
     sousCategorie: "tofu",
     lien: "https://drive.google.com/file/d/17rYj940-RBT8jOJU2wDt0AXBvNf_cTjr/view?usp=drivesdk"
   },
   {
-    titre: "Sauté de tofu au sésame   sauce",
+    titre: "Sauté de tofu au sésame",
     categorie: "5. Plats principaux – Végétariens",
     sousCategorie: "tofu",
     lien: "https://drive.google.com/file/d/1TD3SoiJIpbRnnuI1fHck_EzSYkyJQ4TO/view?usp=drivesdk"
   },
   {
-    titre: "VEGAN MISO GARLIC BAKED TOFU RECIPES - Plant Based And Vegan",
+    titre: "VEGAN MISO GARLIC BAKED TOFU RECIPES",
     categorie: "5. Plats principaux – Végétariens",
     sousCategorie: "tofu",
     lien: "https://drive.google.com/file/d/1-jS5F3-OE_SNZ3c7i_p-nugD_SQht5Xg/view?usp=drivesdk"
@@ -613,7 +601,7 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1oXfViC35dT5VYiBsBIGaufWhQVbQ-9J3/view?usp=drivesdk"
   },
   {
-    titre: "Tofu korma   Deliacious",
+    titre: "Tofu korma",
     categorie: "5. Plats principaux – Végétariens",
     sousCategorie: "tofu",
     lien: "https://drive.google.com/file/d/1vvDB_-gusIsyiPedT7ln23nNFqr_6q6B/view?usp=drivesdk"
@@ -631,7 +619,7 @@ const recettes = [
     lien: "https://drive.google.com/file/d/138HojNuenEtEAkqrDZOiQlow_KuFKPuS/view?usp=drivesdk"
   },
   {
-    titre: "Quésadilla au tofu à la plaque   Cuisinez   Télé Québec",
+    titre: "Quésadilla au tofu à la plaque",
     categorie: "5. Plats principaux – Végétariens",
     sousCategorie: "tofu",
     lien: "https://drive.google.com/file/d/1J8WO7JH3ejSap50FxZGjLnhPKQpilQ19/view?usp=drivesdk"
@@ -643,7 +631,7 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1yGujs5xO-SSQm-3O2DrpRwSvSKIfvnfA/view?usp=drivesdk"
   },
   {
-    titre: "Pad thaï   Mordu",
+    titre: "Pad thaï - Mordu",
     categorie: "5. Plats principaux – Végétariens",
     sousCategorie: "Legumes",
     lien: "https://drive.google.com/file/d/1HDM_90nztPns2pLxwCKz8vYTGN2BUwl7/view?usp=drivesdk"
@@ -655,13 +643,13 @@ const recettes = [
     lien: "https://drive.google.com/file/d/10tYW5KN4Cgi7oyawjzH_izGkm00Q_iHh/view?usp=drivesdk"
   },
   {
-    titre: "Recette curry de chou fleur au lait de coco",
+    titre: "Curry de chou fleur au lait de coco",
     categorie: "5. Plats principaux – Végétariens",
     sousCategorie: "Legumes",
     lien: "https://drive.google.com/file/d/1syzVIHaLkpizdC1GVvGp7U4vvBmPFdbH/view?usp=drivesdk"
   },
   {
-    titre: "paté chinois aux légumes",
+    titre: "Paté chinois aux légumes",
     categorie: "5. Plats principaux – Végétariens",
     sousCategorie: "Legumes",
     lien: "https://drive.google.com/file/d/13Ycey-RTR-01hbsbJou8elfnuaBgkHKY/view?usp=drivesdk"
@@ -673,7 +661,7 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1R9GFM0bEfhY7nT4wuxkjG3L55GZoCb9t/view?usp=drivesdk"
   },
   {
-    titre: "Chow mein aux légumes   Cuisinez   Télé Québec",
+    titre: "Chow mein aux légumes",
     categorie: "5. Plats principaux – Végétariens",
     sousCategorie: "Legumes",
     lien: "https://drive.google.com/file/d/1dqmJhu4m_ftZD4PblbDQPsMn7_Vw4zi5/view?usp=drivesdk"
@@ -715,19 +703,14 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1kF5uXQ4smHucM_fJ9sCbkzU2X8F8z45Q/view?usp=drivesdk"
   },
   {
-    titre: "soupe gourganes AG",
+    titre: "Soupe gourganes AG",
     categorie: "2. Soupes et potages",
     lien: "https://drive.google.com/file/d/1I2Ixc9vU6f_ZiLiP3lVqmS9S6WUggY1G/view?usp=drivesdk"
   },
   {
-    titre: "soupe wonton citronnelle+anis",
+    titre: "Soupe wonton citronnelle+anis",
     categorie: "2. Soupes et potages",
     lien: "https://drive.google.com/file/d/1ZZoaOHWE8mddgu4pmlqoMoTJ_NZnBQ5G/view?usp=drivesdk"
-  },
-  {
-    titre: "soupe gourgane AudreyGirard",
-    categorie: "2. Soupes et potages",
-    lien: "https://drive.google.com/file/d/1WTwz_1OBfpY8vkoeF321FF6PRfwEGsZJ/view?usp=drivesdk"
   },
   {
     titre: "Chaudrée de maïs, bacon & Kale",
@@ -735,14 +718,9 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1-HAfqdUSDzHCb4LMzQ9HVihDWPI0iU8C/view?usp=drivesdk"
   },
   {
-    titre: "Soupe de lentilles à la courge et au lait de coco",
+    titre: "Soupe de lentilles courge et lait de coco",
     categorie: "2. Soupes et potages",
     lien: "https://drive.google.com/file/d/1mrGrhLNkZuxhWyodb0O7lZREDNkcNJf-/view?usp=drivesdk"
-  },
-  {
-    titre: "Soupe aux gourganes du Lac",
-    categorie: "2. Soupes et potages",
-    lien: "https://drive.google.com/file/d/1xQlbJkdcaeHV0tYATMQMucxgR3w3wM5-/view?usp=drivesdk"
   },
   {
     titre: "Soupe Minestrone et pesto",
