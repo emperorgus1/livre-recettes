@@ -144,15 +144,6 @@ main {
   font-size: 1.1rem;
 }
 
-.etiquette-categorie {
-  align-self: flex-start;
-  padding: 4px 10px;
-  font-size: 0.75rem;
-  border-radius: 999px;
-  background: var(--couleur-accent-clair);
-  color: var(--couleur-accent);
-}
-
 .lien-ouvrir {
   margin-top: auto;
   font-size: 0.9rem;

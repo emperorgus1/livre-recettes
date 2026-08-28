@@ -13,7 +13,13 @@ let sousCategorieActive = "Toutes";
 
 function creerBoutonsCategories() {
   conteneurFiltres.innerHTML = "";
-  const categories = ["Toutes", ...new Set(recettes.map(r => r.categorie))];
+  const categoriesUniques = [...new Set(recettes.map(r => r.categorie))];
+  categoriesUniques.sort((a, b) => {
+    const numA = parseInt(a, 10) || 0;
+    const numB = parseInt(b, 10) || 0;
+    return numA - numB;
+  });
+  const categories = ["Toutes", ...categoriesUniques];
 
   categories.forEach(categorie => {
     const bouton = document.createElement("button");
@@ -77,12 +83,7 @@ function creerCarteRecette(recette) {
   carte.rel = "noopener noreferrer";
   carte.classList.add("carte-recette");
 
-  const etiquette = recette.sousCategorie
-    ? `${recette.categorie} · ${recette.sousCategorie}`
-    : recette.categorie;
-
   carte.innerHTML = `
-    <span class="etiquette-categorie">${etiquette}</span>
     <h2>${recette.titre}</h2>
     <span class="lien-ouvrir">Ouvrir le PDF →</span>
   `;
