@@ -8,6 +8,11 @@ const conteneurSousFiltres = document.getElementById("filtres-sous-categories");
 const champRecherche = document.getElementById("recherche");
 const messageVide = document.getElementById("message-vide");
 const listeSuggestions = document.getElementById("suggestions-recherche");
+const modale = document.getElementById("modale-apercu");
+const modaleIframe = document.getElementById("modale-iframe");
+const modaleTitre = document.getElementById("modale-titre");
+const modaleLienDrive = document.getElementById("modale-lien-drive");
+const modaleFermer = document.getElementById("modale-fermer");
 
 let categorieActive = "Toutes";
 let sousCategorieActive = "Toutes";
@@ -111,6 +116,39 @@ function creerBoutonsSousCategories() {
   });
 }
 
+function extraireIdDrive(lien) {
+  const correspondance = lien.match(/\/d\/([a-zA-Z0-9_-]+)/);
+  return correspondance ? correspondance[1] : null;
+}
+
+function ouvrirApercu(recette) {
+  const id = extraireIdDrive(recette.lien);
+  if (!id) {
+    window.open(recette.lien, "_blank", "noopener,noreferrer");
+    return;
+  }
+
+  modaleTitre.textContent = recette.titre;
+  modaleLienDrive.href = recette.lien;
+  modaleIframe.src = `https://drive.google.com/file/d/${id}/preview`;
+  modale.hidden = false;
+  document.body.style.overflow = "hidden";
+}
+
+function fermerApercu() {
+  modale.hidden = true;
+  modaleIframe.src = "";
+  document.body.style.overflow = "";
+}
+
+modaleFermer.addEventListener("click", fermerApercu);
+modale.addEventListener("click", (e) => {
+  if (e.target === modale) fermerApercu();
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Escape" && !modale.hidden) fermerApercu();
+});
+
 function creerCarteRecette(recette) {
   const carte = document.createElement("a");
   carte.href = recette.lien;
@@ -122,6 +160,12 @@ function creerCarteRecette(recette) {
     <h2>${recette.titre}</h2>
     <span class="lien-ouvrir">Ouvrir le PDF →</span>
   `;
+
+  carte.addEventListener("click", (e) => {
+    if (e.ctrlKey || e.metaKey) return;
+    e.preventDefault();
+    ouvrirApercu(recette);
+  });
 
   return carte;
 }
