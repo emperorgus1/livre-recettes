@@ -7,9 +7,44 @@ const conteneurFiltres = document.getElementById("filtres-categories");
 const conteneurSousFiltres = document.getElementById("filtres-sous-categories");
 const champRecherche = document.getElementById("recherche");
 const messageVide = document.getElementById("message-vide");
+const listeSuggestions = document.getElementById("suggestions-recherche");
 
 let categorieActive = "Toutes";
 let sousCategorieActive = "Toutes";
+
+const CLE_HISTORIQUE_RECHERCHE = "recherche-historique";
+const MAX_HISTORIQUE_RECHERCHE = 8;
+
+function chargerHistoriqueRecherche() {
+  try {
+    return JSON.parse(localStorage.getItem(CLE_HISTORIQUE_RECHERCHE)) || [];
+  } catch {
+    return [];
+  }
+}
+
+function sauvegarderRecherche(terme) {
+  if (!terme) return;
+  let historique = chargerHistoriqueRecherche()
+    .filter(t => t.toLowerCase() !== terme.toLowerCase());
+  historique.unshift(terme);
+  historique = historique.slice(0, MAX_HISTORIQUE_RECHERCHE);
+  localStorage.setItem(CLE_HISTORIQUE_RECHERCHE, JSON.stringify(historique));
+  mettreAJourSuggestions();
+}
+
+function mettreAJourSuggestions() {
+  const historique = chargerHistoriqueRecherche();
+  const titres = recettes.map(r => r.titre);
+  const suggestions = [...new Set([...historique, ...titres])];
+
+  listeSuggestions.innerHTML = "";
+  suggestions.forEach(texte => {
+    const option = document.createElement("option");
+    option.value = texte;
+    listeSuggestions.appendChild(option);
+  });
+}
 
 function creerBoutonsCategories() {
   conteneurFiltres.innerHTML = "";
@@ -108,7 +143,13 @@ function afficherRecettes() {
 }
 
 champRecherche.addEventListener("input", afficherRecettes);
+champRecherche.addEventListener("keydown", (e) => {
+  if (e.key === "Enter") {
+    sauvegarderRecherche(champRecherche.value.trim());
+  }
+});
 
 creerBoutonsCategories();
 creerBoutonsSousCategories();
+mettreAJourSuggestions();
 afficherRecettes();
