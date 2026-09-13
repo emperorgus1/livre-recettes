@@ -258,6 +258,12 @@ const recettes = [
     lien: "https://drive.google.com/file/d/1YyggZWzvF1LWaJ-v3fQMdCTvodUQQ-hN/view?usp=drivesdk"
   },
   {
+    titre: "Tacos de poulet _ Mordu.pdf",
+    categorie: "4. Plats principaux – Viandes et poissons",
+    sousCategorie: "Poulet",
+    lien: "https://drive.google.com/file/d/1jhtBHgYN_RMPr2ApzKM8w_pKgnieMupf/view?usp=sharing"
+  },
+   {
     titre: "Chaudrée poulet, maïs et chorizo",
     categorie: "4. Plats principaux – Viandes et poissons",
     sousCategorie: "Poulet",
